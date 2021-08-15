@@ -1,13 +1,108 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
-/* 
-
-    You can write your own styles here...
+body {
+    font-size: 2rem;
+    background-image: url(https://cutewallpaper.org/21/pixel-art-background-1920x1080/8-Bit-City-Background-1920x1080-Drkenfreedmanblog.xyz.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containerHolder { 
+    background: #fdf7d573;
+    opacity: 0.9;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.counterContainer {
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.counter {
+    margin: .5rem;
+    border: 1px solid #f6e58d;
+    border-radius: 1rem;
+    width: 4rem;
+    background: #f6e58d;;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+    box-shadow: -7px 7px #f9ca24;
+    position: relative;
+    line-height: 1;
+}
+.far {
+    font-size: 5rem;
+}
+.icon {
+    margin: .5rem;
+    padding: .5rem;
+    border: 1px solid #f6e58d;;
+    border-radius: 1rem;
+    color: white;
+    background: #f6e58d;;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+    box-shadow: -7px 7px #f9ca24;
+    position: relative;
+    line-height: 1;
+}
+button.theButton {
+    font-size: 3rem;
+    margin-top: .5rem;
+    padding: 0.5rem;
+    padding-top: 0;
+}
+button {
+    margin: .5rem;
+    border: 1px solid #f6e58d;
+    border-radius: 1rem;
+    background: #f6e58d;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+    box-shadow: -7px 7px #f9ca24;
+    position: relative;
+    line-height: 1;
+    color: white;
+}
+button:hover {
+    color: white;
+    letter-spacing: .25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+button:active {
+    color: white;
+    box-shadow: -3px 3px #f99d24;
+    transform: translateY(4px);
+}
+p {
+    font-size: 4.5rem;
+    text-align: center;
+    color: white;
+    margin-top: .5rem;
+}
+.stop {
+    background: red;
+    border-color: red;
+    box-shadow: -7px 7px rgb( 150 1 1 / 80%);
+    color: white;
+}
+.stop:active {
+    box-shadow: -3px 3px #770000;
+}
+.resume {
+    background: green;
+    border-color: green;
+    box-shadow: -7px 7px rgb( 0 68 0 / 80%);
+    color: white;
+}
+.resume:active {
+    box-shadow: -3px 3px #013d04;
+}
